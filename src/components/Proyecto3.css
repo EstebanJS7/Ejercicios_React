@@ -1,0 +1,44 @@
+.acordeon2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 750px;
+}
+
+.columna {
+  flex: 1;
+  max-width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.elemento {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.elemento.activo {
+  background-color: #f2f2f2;
+}
+
+.titulo {
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.descripcion {
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+}
+
+.image{
+  max-width: 40%;
+}
+  
